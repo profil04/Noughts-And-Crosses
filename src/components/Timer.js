@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../App.css';
 
 export default class Timer extends Component {
 
@@ -13,7 +14,7 @@ export default class Timer extends Component {
 
     render() {
         return (
-            <div>
+            <div className='timer'>
                 <button>PLAY</button>
             </div>
         )

@@ -4,13 +4,16 @@ import TimelineAndTitle from './TimelineAndTitle'
 import Board from './Board'
 
 
+
 export default class Interface extends Component {
     render() {
         return (
             <div className='interface'>
-                <HeaderWithData/>
+                <div className='leftSide'>
+                    <HeaderWithData/>
+                    <Board/>
+                </div>
                 <TimelineAndTitle/>
-                <Board/>
             </div>
         )
     }
