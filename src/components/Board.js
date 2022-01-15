@@ -6,15 +6,15 @@ export default class Board extends Component {
     render() {
         return (
             <div className='board'>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
-                <BigField/>
+                <BigField bigFieldNumber = "1" />
+                <BigField bigFieldNumber = "2" />
+                <BigField bigFieldNumber = "3" />
+                <BigField bigFieldNumber = "4" />
+                <BigField bigFieldNumber = "5" />
+                <BigField bigFieldNumber = "6" />
+                <BigField bigFieldNumber = "7" />
+                <BigField bigFieldNumber = "8" />
+                <BigField bigFieldNumber = "9" />
             </div>
         )
     }
