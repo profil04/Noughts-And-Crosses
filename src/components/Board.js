@@ -6,6 +6,7 @@ export default class Board extends Component {
     render() {
         return (
             <div className='board'>
+                <BigField bigFieldNumber = "0" />
                 <BigField bigFieldNumber = "1" />
                 <BigField bigFieldNumber = "2" />
                 <BigField bigFieldNumber = "3" />
@@ -14,7 +15,6 @@ export default class Board extends Component {
                 <BigField bigFieldNumber = "6" />
                 <BigField bigFieldNumber = "7" />
                 <BigField bigFieldNumber = "8" />
-                <BigField bigFieldNumber = "9" />
             </div>
         )
     }
